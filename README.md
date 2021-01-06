@@ -4,14 +4,31 @@ Bar Beer Drinker is a web application project that uses HTML, CSS and Javascript
 
 ## About the database
 
-For the project, the professor had created a database with multiple tables about bars, beers and drinkers in an imaginary country. This database did not contain any established relations such as primary keys or foreign keys, and only contained the data (can be found *here*). There are 12 tables in this database:
+For the project, we were provided a database with multiple tables about bars, beers and drinkers in an imaginary country. This initial database did not contain any established relations such as primary keys or foreign keys, and only contained data of 12 tables (can be found *here*), which are:
 
 1. Bar table
     - Names of all bars and their respective state in which they are located
 2. Barfood table
-      - All names of dishes/foods that all bars serve
+    - All names of dishes/foods that all bars serve
 3. Beer table
     - Names of all beers and their respective manufacturers 
 4. Bills table
-  - 
-5. 
+    - Table that contains all bills. Every tuple in this table/every bill contain a bill_id, bar, date, drinker, items_price, tax_price, tip, total_price, time, bartender, day.
+5. Day table
+    - All days of the week listed in a table.
+6. Drinker table
+    - Names of all drinkers and their respective states in which they live and their phone numbers.
+7. Frequents table
+    - Names of all drinkers and which bar the respective drinker frequents.
+8. Likes table
+    - Names of all drinkers and which beer the respective drinker likes.
+9. Operates table
+    - Names of all bars and the respective days, open_time and closing_time that bar has.
+10. Sellsbeer table
+    - Names of all bars and which beers they sell.
+11. Sellsfood table
+    - Names of all bars and which food/dishes they sell.
+12. Transactions table
+    - Table that contains all transaction, and a transaction/tuple contains the bill_id, item bought, its quantity, its type (beer or food), and its price. 
+
+
