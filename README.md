@@ -2,6 +2,10 @@
 
 Bar Beer Drinker is a web application project that uses HTML, CSS and Javascript in the front-end and MySQL and Java in the back-end to handle queries, output queries, as well as make insightful graphs to visualizes trends for better data analysis. This was a part of a class project for Principles of Information and Data Management (CS 336) at Rutgers with Professor Imieliński. 
 
+## What does the WebApp do?
+
+Write what it does. How many pages. What each page does.
+
 ## About the database
 
 For the project, we were provided a database with multiple tables about bars, beers and drinkers in an imaginary country. This initial database did not contain any established relations such as primary keys or foreign keys, and only contained data of 12 tables (can be found *here*), which are:
@@ -31,4 +35,6 @@ For the project, we were provided a database with multiple tables about bars, be
 12. Transactions table
     - Table that contains all transaction, and a transaction/tuple contains the bill_id, item bought, its quantity, its type (beer or food), and its price. 
 
+Since this initial database only contained the data and respective tables, the first item in the agenda was to create a 
 
+## Tools and langaugaes used in this project
