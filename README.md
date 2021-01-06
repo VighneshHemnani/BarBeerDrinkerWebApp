@@ -35,6 +35,8 @@ For the project, we were provided a database with multiple tables about bars, be
 12. Transactions table
     - Table that contains all transaction, and a transaction/tuple contains the bill_id, item bought, its quantity, its type (beer or food), and its price. 
 
-Since this initial database only contained the data and respective tables, the first item in the agenda was to create a 
+Since this initial database only contained the data and respective tables, the first item in the agenda was to create another database schema that had the neccessary structure in place. First, I identified what the primary and foriegn keys were in this project and then created an empty database schema in MySQL Workbench. Then I created all the tables again, except this time, include the primary keys and the foriegn key constraints so when the web app requests an addition or a modification to the database, we can provide a dynamic error user page.
 
-## Tools and langaugaes used in this project
+## Tools and languages used in this project
+
+In this project, multiple languages were used to do markup, styling the information and web app as well as handle and processing the queries in the back end. Explain more here
