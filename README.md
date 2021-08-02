@@ -2,7 +2,7 @@
 
 ## Project description
 
-BarBeerDrinker is a database creation and integration with a webapp project that is a part of a course at Rutgers University, CS336 taught by Professor Tomasz Imieliński. In this project, we are given a large amount of data points on bars, beers and drinkers in a fictional town, to create a database with the appropriate tables and keys, and then link the database to a website that we made in HTML, CSS and JSP to provide insightful tables and graphs and allow a user to update or delete tuples from the database. 
+BarBeerDrinker is a database creation and integration with a webapp project that is a part of a course at Rutgers University, CS336 taught by Professor Tomasz Imieliński. In this project, we are given a large amount of data points on bars, beers and drinkers in a fictional town, to create a **MySQL** database with the appropriate tables and keys, and then link the database to a website that we made in **HTML**, **CSS** and **JSP** to provide insightful dynamic **MySQL** query outputs in the form of tables and graphs and allow a user to update or delete tuples from the database. 
 
 ## Database structure
 
@@ -24,4 +24,10 @@ Software needed:
 
 ## What can I find in this repo?
 
-<list files>
+Here's a list of all the files in this repo and what they are:
+
+1. [constraint_checking.pdf](constraint_checking.pdf) - A .pdf file that contains two queries that checks two constraints to ensure the database has been set up correctly.
+2. [database.sql](database.sql) - A .sql file that contains all the tuples/data of each bar, beer, drinker and more information that was used in the database for this project. 
+3. [demo_video.mp4](demo_video.mp4) - A .mp4 that runs through the entire project briefly: a sitemap of the web application, the database schema, the constraint checking, sample user testing of the dynamic queries' output via table and graphs as well as dynamic updation and deletion (plus error catching). 
+4. [webapp](/webapp/) - A simple and clean web application made in Eclipse using HTMl, CSS and Javascript that displays tables and graph of results of dynamic queries from the user. Once set up properly, the web application also allows the user to dynamically update, modify or delete tuples from the database. Here are a few .gifs that help visualize the entire web application and a brief sitemap if you don't want to download and watch the demonstration video. 
+5. [create_table_statements.pdf](create_table_statements.pdf) - A .pdf file that allows you to see the CREATE TABLE statements used in the SQL database. This also contains the different variables, primary keys and foriegn keys for each table.
