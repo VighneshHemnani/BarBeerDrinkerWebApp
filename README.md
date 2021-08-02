@@ -20,7 +20,7 @@ Software needed:
 ⋅⋅⋅- Database Management Tool (like MySQL Workbench)⋅⋅
 ⋅⋅⋅- IDE (like Eclipse)⋅⋅
 
-⋅⋅⋅To view this project, you would first need to recreate the tables in the database: using your preferred software, you can use the creation table code in  <strucutre.pdf> to create the empty tables. Then, you can import the sample data points that were provided to us so that way, you can view and run the code in the webapp. Then, once you have done that, you can download the webapp folder and run the index.jsp in your preferred IDE. Ensure that Tomcat is installed and working correctly, and then you can run the website on whichever browser you prefer. ⋅⋅
+⋅⋅⋅To view this project, you would first need to recreate the tables in the database: using your preferred software, you can use the creation table code in  <strucutre.pdf> to create the empty tables. Then, you can import the sample data points that were provided to us so that way, you can view and run the code in the webapp. Then, once you have done that, you can download the webapp folder and run the index.jsp in your preferred IDE. Ensure that Tomcat is installed and working correctly, and then you can run the website on whichever browser you prefer.
 
 ## What can I find in this repo?
 
