@@ -6,7 +6,7 @@ BarBeerDrinker is a database creation and integration with a webapp project that
 
 ## Database structure
 
-One of the first steps of the project was to decide how the database was structured. In this step, we also had to take into account what the primary keys and foreign keys were. If you are interested in make these same tables in your database, you can have a look at <structure.pdf> that includes the creation table code in MySQL. These will also give you insight on which variables were decided as primary or foriegn keys. 
+One of the first steps of the project was to decide how the database was structured. In this step, we also had to take into account what the primary keys and foreign keys were. If you are interested in make these same tables in your database, you can have a look at [create_table_statements.pdf](create_table_statements.pdf) that includes the creation table code in MySQL. These will also give you insight on which variables were decided as primary or foriegn keys. 
 
 ## How can I view this project?
 
